@@ -1,0 +1,194 @@
+@import url("http://db.onlinewebfonts.com/c/a921dd8a5b280b39e062c4ff49e03301?family=T+Star+Mono+Round");
+@import url(slider.css);
+.container-contact {
+  width: auto; }
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 200;
+  letter-spacing: 0.2em;
+  font-family: "T Star Mono Round";
+  margin: 10px 0 0;
+  padding-top: 10px;
+  text-transform: capitalize; }
+
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 200;
+  letter-spacing: 0.2em;
+  font-family: "T Star Mono Round";
+  font-size: 3em;
+  font-weight: 200;
+  font-weight: bold; }
+
+h3, h4 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 200;
+  letter-spacing: 0.2em;
+  font-family: "T Star Mono Round";
+  margin-top: 0px;
+  padding-top: 0px;
+  text-transform: lowercase; }
+
+h4 {
+  text-align: left;
+  font-size: 1.5em; }
+
+p, input, textarea {
+  letter-spacing: 0.04em;
+  font-size: 1.3em; }
+
+.lowercase {
+  text-transform: lowercase; }
+
+.h2-background {
+  width: 80%;
+  padding: 5px;
+  margin: 70px auto;
+  background-color: rgba(255, 217, 0, 0.3);
+  border-radius: 4px; }
+
+.text-center {
+  text-align: center; }
+
+nav {
+  padding-right: 10px;
+  width: 70%;
+  margin: 0 auto;
+  background-color: rgba(126, 239, 104, 0.3);
+  border-radius: 4px;
+  margin-top: 10px; }
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center; }
+    nav ul li {
+      float: none;
+      display: inline-block; }
+      nav ul li a {
+        font-family: "T Star Mono Round";
+        color: black;
+        font-size: 1.5em;
+        display: block;
+        padding: 14px 25px;
+        list-style-type: none;
+        color: #ff85b6; }
+        nav ul li a:visited {
+          text-decoration: none;
+          color: #ffb8d4; }
+        nav ul li a:hover {
+          text-decoration: none;
+          color: #ffb8d4; }
+        nav ul li a:focus {
+          text-decoration: none;
+          color: #ffb8d4; }
+
+.header {
+  min-height: 340px; }
+
+.row .col {
+  padding: 0px 40px; }
+
+.social-icons .github, .social-icons .github:hover, .social-icons .linkedin, .social-icons .siteicon {
+  background: url("../img/github.png") no-repeat;
+  background-size: contain;
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin: 60px auto; }
+  .social-icons .github:hover, .social-icons .linkedin:hover, .social-icons .siteicon:hover {
+    background: url("../img/github_hover.png") no-repeat; }
+.social-icons .linkedin {
+  background: url("../img/linkedin.png") no-repeat;
+  transform: scale(0.92, 0.92); }
+  .social-icons .linkedin:hover {
+    background: url("../img/linkedin_hover.png") no-repeat; }
+.social-icons .siteicon {
+  background: url("../img/siteicon.png") no-repeat;
+  transform: scale(0.92, 0.92); }
+  .social-icons .siteicon:hover {
+    background: url("../img/siteicon_hover.png") no-repeat; }
+
+.contact-form {
+  text-align: center; }
+  .contact-form textarea {
+    width: 100%;
+    background-color: #FFEBF3;
+    border: none;
+    margin: 8px 0px;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.075);
+    height: 160px;
+    padding: 10px 14px;
+    margin-top: 30px; }
+  .contact-form input {
+    width: 100%;
+    background-color: #FFEBF3;
+    border: none;
+    margin: 8px 0px;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.075);
+    height: 40px;
+    padding: 0 14px; }
+  .contact-form .btn:hover {
+    background-color: #ffb8d4;
+    box-shadow: 0 15px 24px rgba(0, 0, 0, 0.22), 0 19px 76px rgba(0, 0, 0, 0.3); }
+
+textarea:focus,
+input[type="text"]:focus,
+input[type="email"]:focus,
+.uneditable-input:focus {
+  border-color: #ffb8d4;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px #ffb8d4;
+  outline: 0 none; }
+
+.portfolio {
+  margin-top: 50px; }
+  .portfolio a {
+    text-decoration: none;
+    color: black; }
+  .portfolio .outerdiv {
+    padding: 10px; }
+  .portfolio .innerdiv {
+    padding: 0px;
+    margin: 0px; }
+    .portfolio .innerdiv:hover {
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.23), 0 10px 40px rgba(0, 0, 0, 0.19); }
+
+.preview h2 {
+  padding: 30px 0 10px; }
+.preview h3, .preview h4 {
+  margin-bottom: 20px; }
+
+iframe {
+  width: 80%;
+  height: 400px;
+  margin-left: 10%; }
+
+.game-name {
+  margin: 40px 0 30px; }
+
+.game-rules {
+  background-color: #FFEBF3;
+  border-radius: 4px;
+  padding: 10px;
+  margin: 40px 30px; }
+
+.project-text {
+  margin-top: 40px;
+  height: 200px;
+  width: 90%;
+  margin-left: 40px; }
+
+footer {
+  text-align: center;
+  margin-top: 70px;
+  background-color: #eeeeee;
+  padding-top: 10px;
+  padding-bottom: 2px;
+  font-size: 10px; }
+
+/*# sourceMappingURL=style.css.map */

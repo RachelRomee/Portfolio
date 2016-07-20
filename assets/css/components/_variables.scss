@@ -1,0 +1,19 @@
+// colors
+$light-pink: #FFEBF3;
+$pink: darken($light-pink, 10%);
+$dark-pink: darken($pink, 10%);
+$darker-pink: darken($dark-pink, 10%);
+
+$light-yellow: rgba(255, 217, 0, 0.3);
+$light-yellow1: rgba(255, 227, 64, 0.4);
+
+$dark-green: #008080;
+$green: rgba(126, 239, 104, 0.8);
+$light-green: rgba(126, 239, 104, 0.3);
+
+$light-grey: #eeeeee;
+$shadow-in: rgba(0, 0, 0, 0.075);
+$shadow-out: darken($shadow-in, 20%);
+
+// fonts
+$mono: 'T Star Mono Round';

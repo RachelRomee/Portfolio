@@ -1,0 +1,46 @@
+nav {
+	padding-right: 10px;
+	width: 70%;
+	margin: 0 auto;
+	background-color: $light-green;
+	border-radius: 4px;
+	margin-top: 10px;
+
+	ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		text-align: center;
+		li {
+			float: none;
+			display: inline-block;
+			a {
+				font-family: $mono;
+				color: black;
+				font-size: 1.5em;
+				display: block;
+				padding: 14px 25px;
+				list-style-type: none;
+				color: $dark-pink;
+				&:visited{
+					text-decoration: none;
+					color: $pink;
+				}
+				&:hover{
+					text-decoration: none;
+					color: $pink;
+				}
+				// &:active{
+				// 	text-decoration: none;
+				// 	color: $darker-pink;
+				// }
+				&:focus {
+					text-decoration: none;
+					color: $pink;
+				}
+
+			}
+		}
+	}
+}

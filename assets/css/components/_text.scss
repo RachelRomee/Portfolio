@@ -1,0 +1,47 @@
+h1 {
+	@include fontheading;
+	margin: 10px 0 0;
+	padding-top: 10px;
+	text-transform: capitalize;
+}
+
+h2 {
+	@include fontheading;
+	font-size: 3em;
+	font-weight: 200;
+	font-weight: bold;
+}
+
+h3 {
+	@include fontheading;
+	margin-top: 0px;
+	padding-top: 0px;
+	text-transform: lowercase;
+}
+
+h4 {
+	@extend h3;
+	text-align: left;
+	font-size: 1.5em;
+}
+
+p, input, textarea, {
+	letter-spacing: 0.04em;
+	font-size: 1.3em;
+}
+
+.lowercase {
+	text-transform: lowercase;
+}
+
+.h2-background {
+	width: 80%;
+	padding: 5px;
+	margin: 70px auto;
+	background-color: $light-yellow;
+	border-radius: 4px;
+}
+
+.text-center {
+	text-align: center;
+}

@@ -1,0 +1,17 @@
+// fonts (light, then bold)
+@import url('http://db.onlinewebfonts.com/c/a921dd8a5b280b39e062c4ff49e03301?family=T+Star+Mono+Round');
+// @import url('http://db.onlinewebfonts.com/c/98675ac090184429eeeedf6987c56c25?family=T+Star+Mono+Round');
+@import "slider.css";
+// define
+@import "components/_variables.scss";
+@import "components/_mixins.scss";
+@import "components/_text.scss";
+
+// components
+@import "components/_nav.scss";
+	@import "components/_header.scss";
+@import "components/_about.scss";
+@import "components/_contact.scss";
+@import "components/_portfolio.scss";
+	@import "components/_slider.scss";
+@import "components/_footer.scss";

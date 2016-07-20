@@ -1,0 +1,71 @@
+.social-icons {
+	.github {
+		background: url('../img/github.png') no-repeat;
+		background-size: contain;
+		width: 100px;
+		height: 100px;
+		display: block;
+		margin: 60px auto;
+
+		&:hover {
+			@extend .github;
+			background: url('../img/github_hover.png') no-repeat;
+		}
+	}
+	.linkedin {
+		@extend .github;
+		background: url('../img/linkedin.png') no-repeat;
+		transform: scale(0.92, 0.92);
+
+		&:hover {
+			background: url('../img/linkedin_hover.png') no-repeat;
+		}
+	}
+	.siteicon  {
+		@extend .github;
+		background: url('../img/siteicon.png') no-repeat;
+		transform: scale(0.92, 0.92);
+
+		&:hover {
+			background: url('../img/siteicon_hover.png') no-repeat;
+		}
+	}
+}
+
+.contact-form {
+	text-align: center;
+	textarea {
+		@include contactform;
+		height: 160px;
+		padding: 10px 14px;
+		margin-top: 30px;
+	}
+	input {
+		@include contactform;
+		height: 40px;
+		padding: 0 14px;
+	}
+	.btn {
+		&:hover {
+			background-color: $pink;
+			@include card(5);
+		}
+	}
+}
+
+
+
+textarea:focus,
+input[type="text"]:focus,
+input[type="email"]:focus,
+.uneditable-input:focus {
+  border-color: $pink;
+  box-shadow: 0 1px 1px $shadow-in inset, 0 0 8px $pink;
+  outline: 0 none;
+}
+
+// :focus {
+// 	outline-color: 1px solid $pink;
+// 	outline-style: auto;
+// 	outline-width: 5px;
+// }
