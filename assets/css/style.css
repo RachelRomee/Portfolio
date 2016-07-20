@@ -48,7 +48,7 @@ p, input, textarea {
   width: 80%;
   padding: 5px;
   margin: 70px auto;
-  background-color: rgba(255, 217, 0, 0.3);
+  background-color: rgba(255, 217, 0, 0.25);
   border-radius: 4px; }
 
 .text-center {
@@ -58,9 +58,13 @@ nav {
   padding-right: 10px;
   width: 70%;
   margin: 0 auto;
-  background-color: rgba(126, 239, 104, 0.3);
+  background: url("../img/background.png") no-repeat;
+  background-size: cover;
   border-radius: 4px;
   margin-top: 10px; }
+  nav a, nav a:hover {
+    text-decoration: none;
+    color: black; }
   nav ul {
     list-style-type: none;
     margin: 0;
@@ -70,21 +74,16 @@ nav {
     nav ul li {
       float: none;
       display: inline-block; }
-      nav ul li a {
+      nav ul li a, nav ul li a:hover {
         font-family: "T Star Mono Round";
         color: black;
         font-size: 1.5em;
         display: block;
-        padding: 14px 25px;
-        list-style-type: none;
-        color: #ff85b6; }
+        padding: 14px 25px; }
         nav ul li a:visited {
           text-decoration: none;
-          color: #ffb8d4; }
+          color: #ff85b6; }
         nav ul li a:hover {
-          text-decoration: none;
-          color: #ffb8d4; }
-        nav ul li a:focus {
           text-decoration: none;
           color: #ffb8d4; }
 
@@ -147,7 +146,7 @@ input[type="email"]:focus,
 
 .portfolio {
   margin-top: 50px; }
-  .portfolio a {
+  .portfolio a, .portfolio nav a:hover, nav .portfolio a:hover {
     text-decoration: none;
     color: black; }
   .portfolio .outerdiv {
@@ -168,14 +167,14 @@ iframe {
   height: 400px;
   margin-left: 10%; }
 
-.game-name {
-  margin: 40px 0 30px; }
-
 .game-rules {
   background-color: #FFEBF3;
   border-radius: 4px;
-  padding: 10px;
+  padding: 20px 20px 20px 0;
   margin: 40px 30px; }
+  .game-rules ul {
+    list-style-type: none;
+    text-align: center; }
 
 .project-text {
   margin-top: 40px;
