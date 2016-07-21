@@ -1,19 +1,28 @@
 // colors
-$light-pink: #FFEBF3;
+$light-pink: rgba(253,211,227,0.4);
 $pink: darken($light-pink, 10%);
 $dark-pink: darken($pink, 10%);
 $darker-pink: darken($dark-pink, 10%);
 
-$light-yellow: rgba(255, 217, 0, 0.3);
-$light-yellow1: rgba(255, 227, 64, 0.4);
+$light-blue: rgba(115, 211, 255,0.4);
+$blue: rgba(115, 211, 255,0.4);
+$blue2: rgba(126, 231, 238,1);
+
+$aqua: rgba(209, 255, 244,1);
+$light-yellow1: rgba(255, 217, 0, 0.25);
+$light-yellow: rgba(250, 223, 22,0.3);
 
 $dark-green: #008080;
 $green: rgba(126, 239, 104, 0.8);
 $light-green: rgba(126, 239, 104, 0.3);
+$mint1: rgba(159, 251, 220,0.4);
+
+$mint: rgba(158, 249, 218,0.4);
+$dark-mint: darken($mint, 10%);
 
 $light-grey: #eeeeee;
-$shadow-in: rgba(0, 0, 0, 0.075);
-$shadow-out: darken($shadow-in, 20%);
+$shadow-in: rgba(0, 0, 0, 0.05);
+$shadow-out: lighten($shadow-in, 10%);
 
 // fonts
 $mono: 'T Star Mono Round';

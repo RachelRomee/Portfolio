@@ -8,7 +8,6 @@ h1 {
 h2 {
 	@include fontheading;
 	font-size: 3em;
-	font-weight: 200;
 	font-weight: bold;
 }
 
@@ -24,24 +23,44 @@ h4 {
 	text-align: left;
 	font-size: 1.5em;
 }
-
+p {
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 300;
+}
 p, input, textarea, {
 	letter-spacing: 0.04em;
 	font-size: 1.3em;
+	color: black;
 }
-
 .lowercase {
 	text-transform: lowercase;
 }
+.contact-form-font {
+	font-family: $mono;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+.header-text {
+	font-size: 2em;
+	font-weight: 300;
+	a {
+		color: black;
+		border-bottom: 2px solid $darker-pink;
+		&:hover {
+			text-decoration: none;
+			color: $darker-pink;
+		}
+	}
 
+}
 .h2-background {
 	width: 80%;
 	padding: 5px;
-	margin: 70px auto;
-	background-color: $light-yellow;
+	margin: 70px auto 50px;
+	// background-color: $light-yellow;
+	border: 10px solid $light-yellow;
 	border-radius: 4px;
 }
-
 .text-center {
 	text-align: center;
 }

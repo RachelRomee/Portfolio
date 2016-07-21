@@ -2,10 +2,17 @@ nav {
 	padding-right: 10px;
 	width: 70%;
 	margin: 0 auto;
-	background-color: $light-green;
+	background: url('../img/background2.png') no-repeat left bottom;
+	background-size: cover;
 	border-radius: 4px;
 	margin-top: 10px;
-
+	a {
+		text-decoration: none;
+		color: black;
+		&:hover {
+			@extend a;
+		}
+	}
 	ul {
 		list-style-type: none;
 		margin: 0;
@@ -21,26 +28,19 @@ nav {
 				font-size: 1.5em;
 				display: block;
 				padding: 14px 25px;
-				list-style-type: none;
-				color: $dark-pink;
 				&:visited{
 					text-decoration: none;
-					color: $pink;
+					color: $dark-pink;
 				}
 				&:hover{
 					text-decoration: none;
 					color: $pink;
 				}
-				// &:active{
-				// 	text-decoration: none;
-				// 	color: $darker-pink;
-				// }
-				&:focus {
-					text-decoration: none;
-					color: $pink;
-				}
-
 			}
 		}
 	}
+}
+.home-nav {
+	background: none;
+	background-color: white!important;
 }

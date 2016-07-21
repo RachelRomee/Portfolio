@@ -6,13 +6,16 @@
 		color: black;
 	}
 	.outerdiv {
-		padding: 10px;
+		padding: 0 40px;
 	}
 	.innerdiv {
 		padding: 0px;
 		margin: 0px;
 		&:hover {
 			@include card(3);
+		}
+		p {
+			margin: 5px;
 		}
 	}
 }
@@ -30,21 +33,19 @@
 }
 iframe {
 	width: 80%;
-	height: 400px;
+	height: 700px;
 	margin-left: 10%;
 }
-.game-name {
-	margin: 40px 0 30px;
 
-}
-.game-name-div {
-
-}
 .game-rules {
 	background-color: $light-pink;
 	border-radius: 4px;
-	padding: 10px;
+	padding: 20px 20px 20px 0;
 	margin: 40px 30px;
+	ul {
+		list-style-type: none;
+		text-align: center;
+	}
 }
 .project-text {
 	margin-top: 40px;
