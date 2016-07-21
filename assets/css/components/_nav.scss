@@ -2,8 +2,7 @@ nav {
 	padding-right: 10px;
 	width: 70%;
 	margin: 0 auto;
-	// background-color: $light-green;
-	background: url('../img/background.png') no-repeat;
+	background: url('../img/background2.png') no-repeat left bottom;
 	background-size: cover;
 	border-radius: 4px;
 	margin-top: 10px;
@@ -40,4 +39,8 @@ nav {
 			}
 		}
 	}
+}
+.home-nav {
+	background: none;
+	background-color: white!important;
 }

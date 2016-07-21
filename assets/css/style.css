@@ -1,4 +1,5 @@
 @import url("http://db.onlinewebfonts.com/c/a921dd8a5b280b39e062c4ff49e03301?family=T+Star+Mono+Round");
+@import url("https://fonts.googleapis.com/css?family=Work+Sans:300,400,500");
 @import url(slider.css);
 .container-contact {
   width: auto; }
@@ -20,7 +21,6 @@ h2 {
   letter-spacing: 0.2em;
   font-family: "T Star Mono Round";
   font-size: 3em;
-  font-weight: 200;
   font-weight: bold; }
 
 h3, h4 {
@@ -37,18 +37,38 @@ h4 {
   text-align: left;
   font-size: 1.5em; }
 
+p {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 300; }
+
 p, input, textarea {
   letter-spacing: 0.04em;
-  font-size: 1.3em; }
+  font-size: 1.3em;
+  color: black; }
 
 .lowercase {
   text-transform: lowercase; }
 
+.contact-form-font {
+  font-family: "T Star Mono Round";
+  font-size: 14px;
+  text-transform: uppercase; }
+
+.header-text {
+  font-size: 2em;
+  font-weight: 300; }
+  .header-text a, .header-text nav a:hover, nav .header-text a:hover {
+    color: black;
+    border-bottom: 2px solid rgba(246, 65, 134, 0.4); }
+    .header-text a:hover {
+      text-decoration: none;
+      color: rgba(246, 65, 134, 0.4); }
+
 .h2-background {
   width: 80%;
   padding: 5px;
-  margin: 70px auto;
-  background-color: rgba(255, 217, 0, 0.25);
+  margin: 70px auto 50px;
+  border: 10px solid rgba(250, 223, 22, 0.3);
   border-radius: 4px; }
 
 .text-center {
@@ -58,7 +78,7 @@ nav {
   padding-right: 10px;
   width: 70%;
   margin: 0 auto;
-  background: url("../img/background.png") no-repeat;
+  background: url("../img/background2.png") no-repeat left bottom;
   background-size: cover;
   border-radius: 4px;
   margin-top: 10px; }
@@ -82,13 +102,28 @@ nav {
         padding: 14px 25px; }
         nav ul li a:visited {
           text-decoration: none;
-          color: #ff85b6; }
+          color: rgba(249, 113, 165, 0.4); }
         nav ul li a:hover {
           text-decoration: none;
-          color: #ffb8d4; }
+          color: rgba(251, 162, 196, 0.4); }
+
+.home-nav {
+  background: none;
+  background-color: white !important; }
+
+.header-background {
+  background: url("../img/background2.png") no-repeat center bottom;
+  background-size: 100%;
+  margin-top: -390px;
+  opacity: 0.9; }
+
+.margin-header {
+  height: 400px; }
 
 .header {
-  min-height: 340px; }
+  min-height: 500px;
+  width: 80%;
+  margin: 100px auto 0; }
 
 .row .col {
   padding: 0px 40px; }
@@ -117,31 +152,31 @@ nav {
   text-align: center; }
   .contact-form textarea {
     width: 100%;
-    background-color: #FFEBF3;
+    background-color: rgba(253, 211, 227, 0.4);
     border: none;
     margin: 8px 0px;
-    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.075);
+    box-shadow: 0 3px 3px rgba(26, 26, 26, 0.05);
     height: 160px;
     padding: 10px 14px;
     margin-top: 30px; }
   .contact-form input {
     width: 100%;
-    background-color: #FFEBF3;
+    background-color: rgba(253, 211, 227, 0.4);
     border: none;
     margin: 8px 0px;
-    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.075);
+    box-shadow: 0 3px 3px rgba(26, 26, 26, 0.05);
     height: 40px;
     padding: 0 14px; }
   .contact-form .btn:hover {
-    background-color: #ffb8d4;
+    background-color: rgba(251, 162, 196, 0.4);
     box-shadow: 0 15px 24px rgba(0, 0, 0, 0.22), 0 19px 76px rgba(0, 0, 0, 0.3); }
 
 textarea:focus,
 input[type="text"]:focus,
 input[type="email"]:focus,
 .uneditable-input:focus {
-  border-color: #ffb8d4;
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px #ffb8d4;
+  border-color: rgba(251, 162, 196, 0.4);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05) inset, 0 0 8px rgba(251, 162, 196, 0.4);
   outline: 0 none; }
 
 .portfolio {
@@ -150,12 +185,14 @@ input[type="email"]:focus,
     text-decoration: none;
     color: black; }
   .portfolio .outerdiv {
-    padding: 10px; }
+    padding: 0 40px; }
   .portfolio .innerdiv {
     padding: 0px;
     margin: 0px; }
     .portfolio .innerdiv:hover {
       box-shadow: 0 6px 12px rgba(0, 0, 0, 0.23), 0 10px 40px rgba(0, 0, 0, 0.19); }
+    .portfolio .innerdiv p {
+      margin: 5px; }
 
 .preview h2 {
   padding: 30px 0 10px; }
@@ -164,11 +201,11 @@ input[type="email"]:focus,
 
 iframe {
   width: 80%;
-  height: 400px;
+  height: 700px;
   margin-left: 10%; }
 
 .game-rules {
-  background-color: #FFEBF3;
+  background-color: rgba(253, 211, 227, 0.4);
   border-radius: 4px;
   padding: 20px 20px 20px 0;
   margin: 40px 30px; }
@@ -184,8 +221,8 @@ iframe {
 
 footer {
   text-align: center;
-  margin-top: 70px;
-  background-color: #eeeeee;
+  margin-top: 50px;
+  background-color: rgba(110, 246, 200, 0.4);
   padding-top: 10px;
   padding-bottom: 2px;
   font-size: 10px; }
