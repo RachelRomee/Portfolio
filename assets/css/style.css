@@ -155,7 +155,7 @@ nav {
     background-color: rgba(253, 211, 227, 0.4);
     border: none;
     margin: 8px 0px;
-    box-shadow: 0 3px 3px rgba(26, 26, 26, 0.05);
+    box-shadow: 0 3px 3px rgba(26, 26, 26, 0.01);
     height: 160px;
     padding: 10px 14px;
     margin-top: 30px; }
@@ -164,7 +164,7 @@ nav {
     background-color: rgba(253, 211, 227, 0.4);
     border: none;
     margin: 8px 0px;
-    box-shadow: 0 3px 3px rgba(26, 26, 26, 0.05);
+    box-shadow: 0 3px 3px rgba(26, 26, 26, 0.01);
     height: 40px;
     padding: 0 14px; }
   .contact-form .btn:hover {
@@ -176,7 +176,7 @@ input[type="text"]:focus,
 input[type="email"]:focus,
 .uneditable-input:focus {
   border-color: rgba(251, 162, 196, 0.4);
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05) inset, 0 0 8px rgba(251, 162, 196, 0.4);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.01) inset, 0 0 8px rgba(249, 113, 165, 0.4);
   outline: 0 none; }
 
 .portfolio {
@@ -185,7 +185,7 @@ input[type="email"]:focus,
     text-decoration: none;
     color: black; }
   .portfolio .outerdiv {
-    padding: 0 40px; }
+    padding: 0px 40px 10px; }
   .portfolio .innerdiv {
     padding: 0px;
     margin: 0px; }
@@ -215,9 +215,9 @@ iframe {
 
 .project-text {
   margin-top: 40px;
-  height: 200px;
+  height: 350px;
   width: 90%;
-  margin-left: 40px; }
+  margin-left: 0px; }
 
 footer {
   text-align: center;
